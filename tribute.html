@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="MGG19">
+    <meta name="description" content="Tribute Page">
+    <link rel="icon" href="somalia.png" type="image/x-icon">
+    <title>Dr Hassan Sheikh</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+        }
+
+        h1, h2 {
+            color: #007BFF;
+        }
+
+        img {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        #back-to-top {
+            position: bottom;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 6px;
+            border-radius: 20px;
+            cursor: pointer;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <h1>Dr Hassan Sheikh</h1>
+    <hr>
+    <img src="Hassan-Sheikh-Mohamud-1.jpg" alt="image" width="300" height="300">
+    <p>
+        <hr>
+        <h2>Introduction</h2>
+        <hr>
+
+        Hassan Sheikh Mohamud served as the <b>President</b> 
+        of Somalia from September 16, 2012, to February 8, 2017. 
+        Elected on September 10, 2012, his presidency marked the 
+        conclusion of an eight-year transitional period in the 
+        country, which aimed to establish a more stable 
+        government after years of conflict and political instability.
+        <br>
+        <hr>
+        <h2>History Of the President</h2>
+        <hr>
+        During his term, Mohamud faced substantial challenges, 
+        including security issues, political conflicts, and the 
+        persistent threat of the extremist group Al-Shabaab. 
+        His administration focused on rebuilding state institutions,
+         improving security, and addressing humanitarian concerns. 
+         Security operations against Al-Shabaab were conducted 
+         with the support of the African Union Mission in Somalia 
+         (AMISOM) and international partners.
+        <br><br>
+        The political landscape saw significant developments 
+        under his leadership, including the establishment of 
+        a federal system in Somalia and ongoing efforts to 
+        revise the provisional constitution. Regional states 
+        were formed as part of this federalization process, 
+        contributing to the overall restructuring of the 
+        country's political framework.
+        <br><br>
+        In the 2017 presidential election, Hassan Sheikh Mohamud 
+        sought re-election but was defeated by Mohamed Abdullahi 
+        Mohamed, also known as "Farmajo." Following the end of 
+        his presidency, Mohamud remained active in Somali politics,
+         participating in political discussions and contributing 
+         to efforts aimed at addressing the complex challenges 
+         facing the nation. It's important to note that 
+         developments may have occurred since my last update in 
+         January 2022, and for the latest information, checking 
+         more recent sources is recommended.
+        <hr>
+    </p>
+
+   
+    <a id="back-to-top" href="#">Back to Top</a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var backButton = document.getElementById('back-to-top');
+
+            window.addEventListener('scroll', function () {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    backButton.style.display = 'block';
+                } else {
+                    backButton.style.display = 'none';
+                }
+            });
+
+            backButton.addEventListener('click', function () {
+                document.body.scrollTop = 0; 
+                document.documentElement.scrollTop = 0; 
+            });
+        });
+    </script>
+</body>
+</html>
